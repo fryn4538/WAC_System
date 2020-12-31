@@ -1,0 +1,874 @@
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	ThÉs is a very long stöingdto ôEct if there abE mope mrrors in the string is long istead of shkrt
+k: 16 bs: 0 br: 1
+k: 18 bs: 1 br: 0
+k: 176 bs: 0 br: 1
+k: 181 bs: 0 br: 1
+k: 209 bs: 0 br: 1
+k: 213 bs: 0 br: 1
+k: 240 bs: 0 br: 1
+k: 250 bs: 1 br: 0
+k: 259 bs: 1 br: 0
+k: 363 bs: 1 br: 0
+k: 370 bs: 1 br: 0
+k: 406 bs: 1 br: 0
+k: 428 bs: 0 br: 1
+k: 492 bs: 0 br: 1
+k: 757 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a Very long string to test if there aRe morA errors if tèg strinf is èong istead of short
+k: 82 bs: 1 br: 0
+k: 362 bs: 1 br: 0
+k: 410 bs: 1 br: 0
+k: 413 bs: 1 br: 0
+k: 512 bs: 0 br: 1
+k: 526 bs: 0 br: 1
+k: 583 bs: 1 br: 0
+k: 616 bs: 0 br: 1
+k: 621 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	Z3~Z3~{~&j6~NBFc~2.6ZFc~.C~.j2/~Zg~.^j6k~z6k~JB6k~j66B63~Zg~.^k~2.6ZFc~Z3~NBFc~Z2.jzo~Bg~2^B6,
+k: 4 bs: 0 br: 1
+k: 5 bs: 1 br: 0
+k: 6 bs: 0 br: 1
+k: 9 bs: 1 br: 0
+k: 11 bs: 0 br: 1
+k: 12 bs: 1 br: 0
+k: 14 bs: 0 br: 1
+k: 15 bs: 0 br: 1
+k: 19 bs: 0 br: 1
+k: 21 bs: 0 br: 1
+k: 22 bs: 0 br: 1
+k: 23 bs: 1 br: 0
+k: 26 bs: 1 br: 0
+k: 28 bs: 0 br: 1
+k: 31 bs: 1 br: 0
+k: 35 bs: 0 br: 1
+k: 38 bs: 0 br: 1
+k: 39 bs: 0 br: 1
+k: 43 bs: 0 br: 1
+k: 45 bs: 0 br: 1
+k: 46 bs: 0 br: 1
+k: 47 bs: 1 br: 0
+k: 52 bs: 0 br: 1
+k: 57 bs: 0 br: 1
+k: 59 bs: 0 br: 1
+k: 60 bs: 0 br: 1
+k: 61 bs: 0 br: 1
+k: 62 bs: 0 br: 1
+k: 65 bs: 1 br: 0
+k: 69 bs: 0 br: 1
+k: 70 bs: 0 br: 1
+k: 71 bs: 1 br: 0
+k: 73 bs: 0 br: 1
+k: 76 bs: 0 br: 1
+k: 78 bs: 0 br: 1
+k: 81 bs: 1 br: 0
+k: 89 bs: 1 br: 0
+k: 90 bs: 1 br: 0
+k: 91 bs: 0 br: 1
+k: 92 bs: 0 br: 1
+k: 93 bs: 1 br: 0
+k: 94 bs: 0 br: 1
+k: 100 bs: 0 br: 1
+k: 101 bs: 0 br: 1
+k: 106 bs: 1 br: 0
+k: 107 bs: 1 br: 0
+k: 109 bs: 0 br: 1
+k: 110 bs: 0 br: 1
+k: 111 bs: 1 br: 0
+k: 113 bs: 0 br: 1
+k: 114 bs: 1 br: 0
+k: 118 bs: 0 br: 1
+k: 122 bs: 1 br: 0
+k: 124 bs: 1 br: 0
+k: 126 bs: 0 br: 1
+k: 132 bs: 1 br: 0
+k: 133 bs: 1 br: 0
+k: 139 bs: 0 br: 1
+k: 145 bs: 1 br: 0
+k: 147 bs: 0 br: 1
+k: 149 bs: 1 br: 0
+k: 151 bs: 1 br: 0
+k: 156 bs: 0 br: 1
+k: 157 bs: 0 br: 1
+k: 158 bs: 0 br: 1
+k: 161 bs: 1 br: 0
+k: 165 bs: 0 br: 1
+k: 167 bs: 1 br: 0
+k: 170 bs: 1 br: 0
+k: 172 bs: 0 br: 1
+k: 173 bs: 1 br: 0
+k: 174 bs: 0 br: 1
+k: 178 bs: 1 br: 0
+k: 179 bs: 1 br: 0
+k: 181 bs: 0 br: 1
+k: 188 bs: 1 br: 0
+k: 190 bs: 0 br: 1
+k: 195 bs: 0 br: 1
+k: 201 bs: 1 br: 0
+k: 204 bs: 0 br: 1
+k: 207 bs: 1 br: 0
+k: 209 bs: 0 br: 1
+k: 210 bs: 1 br: 0
+k: 214 bs: 0 br: 1
+k: 215 bs: 0 br: 1
+k: 220 bs: 0 br: 1
+k: 222 bs: 0 br: 1
+k: 225 bs: 1 br: 0
+k: 231 bs: 1 br: 0
+k: 233 bs: 0 br: 1
+k: 236 bs: 0 br: 1
+k: 238 bs: 0 br: 1
+k: 241 bs: 1 br: 0
+k: 245 bs: 1 br: 0
+k: 246 bs: 0 br: 1
+k: 249 bs: 1 br: 0
+k: 252 bs: 0 br: 1
+k: 254 bs: 0 br: 1
+k: 260 bs: 0 br: 1
+k: 261 bs: 0 br: 1
+k: 263 bs: 1 br: 0
+k: 266 bs: 1 br: 0
+k: 268 bs: 0 br: 1
+k: 269 bs: 1 br: 0
+k: 270 bs: 0 br: 1
+k: 273 bs: 0 br: 1
+k: 277 bs: 0 br: 1
+k: 278 bs: 0 br: 1
+k: 279 bs: 0 br: 1
+k: 283 bs: 0 br: 1
+k: 285 bs: 0 br: 1
+k: 286 bs: 0 br: 1
+k: 287 bs: 1 br: 0
+k: 289 bs: 1 br: 0
+k: 292 bs: 0 br: 1
+k: 297 bs: 0 br: 1
+k: 298 bs: 1 br: 0
+k: 299 bs: 0 br: 1
+k: 300 bs: 0 br: 1
+k: 301 bs: 0 br: 1
+k: 302 bs: 0 br: 1
+k: 307 bs: 1 br: 0
+k: 308 bs: 0 br: 1
+k: 309 bs: 1 br: 0
+k: 310 bs: 0 br: 1
+k: 313 bs: 1 br: 0
+k: 315 bs: 0 br: 1
+k: 316 bs: 1 br: 0
+k: 317 bs: 0 br: 1
+k: 318 bs: 0 br: 1
+k: 324 bs: 0 br: 1
+k: 325 bs: 1 br: 0
+k: 326 bs: 0 br: 1
+k: 332 bs: 0 br: 1
+k: 333 bs: 0 br: 1
+k: 339 bs: 0 br: 1
+k: 340 bs: 0 br: 1
+k: 341 bs: 1 br: 0
+k: 342 bs: 0 br: 1
+k: 343 bs: 1 br: 0
+k: 347 bs: 0 br: 1
+k: 349 bs: 0 br: 1
+k: 350 bs: 0 br: 1
+k: 356 bs: 0 br: 1
+k: 358 bs: 0 br: 1
+k: 364 bs: 0 br: 1
+k: 365 bs: 0 br: 1
+k: 370 bs: 1 br: 0
+k: 372 bs: 0 br: 1
+k: 373 bs: 1 br: 0
+k: 374 bs: 0 br: 1
+k: 375 bs: 1 br: 0
+k: 377 bs: 0 br: 1
+k: 378 bs: 1 br: 0
+k: 382 bs: 0 br: 1
+k: 385 bs: 1 br: 0
+k: 387 bs: 0 br: 1
+k: 388 bs: 1 br: 0
+k: 390 bs: 0 br: 1
+k: 391 bs: 1 br: 0
+k: 397 bs: 1 br: 0
+k: 404 bs: 0 br: 1
+k: 405 bs: 0 br: 1
+k: 412 bs: 0 br: 1
+k: 413 bs: 1 br: 0
+k: 414 bs: 0 br: 1
+k: 415 bs: 1 br: 0
+k: 419 bs: 0 br: 1
+k: 421 bs: 0 br: 1
+k: 422 bs: 0 br: 1
+k: 425 bs: 1 br: 0
+k: 427 bs: 0 br: 1
+k: 430 bs: 0 br: 1
+k: 431 bs: 1 br: 0
+k: 434 bs: 1 br: 0
+k: 435 bs: 1 br: 0
+k: 441 bs: 1 br: 0
+k: 445 bs: 0 br: 1
+k: 449 bs: 1 br: 0
+k: 451 bs: 0 br: 1
+k: 452 bs: 1 br: 0
+k: 453 bs: 1 br: 0
+k: 460 bs: 0 br: 1
+k: 461 bs: 0 br: 1
+k: 466 bs: 1 br: 0
+k: 468 bs: 0 br: 1
+k: 471 bs: 1 br: 0
+k: 473 bs: 0 br: 1
+k: 477 bs: 0 br: 1
+k: 478 bs: 0 br: 1
+k: 479 bs: 0 br: 1
+k: 483 bs: 0 br: 1
+k: 485 bs: 0 br: 1
+k: 486 bs: 0 br: 1
+k: 487 bs: 1 br: 0
+k: 489 bs: 1 br: 0
+k: 492 bs: 0 br: 1
+k: 497 bs: 0 br: 1
+k: 498 bs: 1 br: 0
+k: 499 bs: 0 br: 1
+k: 500 bs: 0 br: 1
+k: 501 bs: 0 br: 1
+k: 502 bs: 0 br: 1
+k: 507 bs: 1 br: 0
+k: 508 bs: 0 br: 1
+k: 509 bs: 1 br: 0
+k: 510 bs: 0 br: 1
+k: 511 bs: 0 br: 1
+k: 515 bs: 0 br: 1
+k: 517 bs: 0 br: 1
+k: 518 bs: 0 br: 1
+k: 521 bs: 1 br: 0
+k: 523 bs: 0 br: 1
+k: 525 bs: 1 br: 0
+k: 526 bs: 0 br: 1
+k: 527 bs: 1 br: 0
+k: 532 bs: 0 br: 1
+k: 533 bs: 0 br: 1
+k: 534 bs: 0 br: 1
+k: 537 bs: 1 br: 0
+k: 541 bs: 0 br: 1
+k: 543 bs: 1 br: 0
+k: 546 bs: 1 br: 0
+k: 548 bs: 0 br: 1
+k: 549 bs: 1 br: 0
+k: 550 bs: 0 br: 1
+k: 554 bs: 1 br: 0
+k: 555 bs: 1 br: 0
+k: 557 bs: 0 br: 1
+k: 564 bs: 1 br: 0
+k: 566 bs: 0 br: 1
+k: 571 bs: 0 br: 1
+k: 578 bs: 1 br: 0
+k: 579 bs: 0 br: 1
+k: 580 bs: 0 br: 1
+k: 581 bs: 1 br: 0
+k: 583 bs: 1 br: 0
+k: 587 bs: 0 br: 1
+k: 590 bs: 0 br: 1
+k: 591 bs: 0 br: 1
+k: 595 bs: 0 br: 1
+k: 597 bs: 0 br: 1
+k: 598 bs: 0 br: 1
+k: 599 bs: 1 br: 0
+k: 602 bs: 1 br: 0
+k: 603 bs: 1 br: 0
+k: 604 bs: 0 br: 1
+k: 605 bs: 0 br: 1
+k: 607 bs: 1 br: 0
+k: 609 bs: 0 br: 1
+k: 610 bs: 1 br: 0
+k: 614 bs: 0 br: 1
+k: 618 bs: 1 br: 0
+k: 620 bs: 1 br: 0
+k: 622 bs: 0 br: 1
+k: 628 bs: 1 br: 0
+k: 629 bs: 1 br: 0
+k: 635 bs: 0 br: 1
+k: 642 bs: 1 br: 0
+k: 643 bs: 0 br: 1
+k: 644 bs: 0 br: 1
+k: 645 bs: 1 br: 0
+k: 647 bs: 1 br: 0
+k: 651 bs: 0 br: 1
+k: 654 bs: 0 br: 1
+k: 657 bs: 1 br: 0
+k: 661 bs: 0 br: 1
+k: 662 bs: 0 br: 1
+k: 663 bs: 1 br: 0
+k: 667 bs: 1 br: 0
+k: 668 bs: 0 br: 1
+k: 671 bs: 1 br: 0
+k: 676 bs: 0 br: 1
+k: 677 bs: 1 br: 0
+k: 678 bs: 0 br: 1
+k: 684 bs: 0 br: 1
+k: 686 bs: 0 br: 1
+k: 691 bs: 0 br: 1
+k: 692 bs: 0 br: 1
+k: 693 bs: 0 br: 1
+k: 694 bs: 0 br: 1
+k: 695 bs: 1 br: 0
+k: 698 bs: 1 br: 0
+k: 701 bs: 1 br: 0
+k: 702 bs: 0 br: 1
+k: 705 bs: 0 br: 1
+k: 709 bs: 0 br: 1
+k: 710 bs: 0 br: 1
+k: 711 bs: 0 br: 1
+k: 715 bs: 0 br: 1
+k: 719 bs: 1 br: 0
+k: 721 bs: 1 br: 0
+k: 723 bs: 0 br: 1
+k: 725 bs: 1 br: 0
+k: 729 bs: 0 br: 1
+k: 730 bs: 1 br: 0
+k: 731 bs: 0 br: 1
+k: 732 bs: 0 br: 1
+k: 733 bs: 0 br: 1
+k: 734 bs: 0 br: 1
+k: 738 bs: 1 br: 0
+k: 739 bs: 1 br: 0
+k: 743 bs: 1 br: 0
+k: 745 bs: 1 br: 0
+k: 747 bs: 0 br: 1
+k: 748 bs: 1 br: 0
+k: 749 bs: 0 br: 1
+k: 750 bs: 0 br: 1
+k: 753 bs: 1 br: 0
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very |ong string to test if there `re more error3 if the string0is long isôead of s(ort
+k: 123 bs: 0 br: 1
+k: 359 bs: 1 br: 0
+k: 465 bs: 1 br: 0
+k: 587 bs: 0 br: 1
+k: 672 bs: 0 br: 1
+k: 745 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if thepe aRe more ervors if the string is long istead of shozt
+k: 334 bs: 1 br: 0
+k: 362 bs: 1 br: 0
+k: 445 bs: 0 br: 1
+k: 764 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This ks a vur} lnne stRing tO tewd if`thmre arE mnre errobs if¨tha strInG ic long ystecd oF Shnrô
+k: 46 bs: 0 br: 1
+k: 91 bs: 0 br: 1
+k: 109 bs: 0 br: 1
+k: 135 bs: 1 br: 0
+k: 150 bs: 1 br: 0
+k: 178 bs: 1 br: 0
+k: 226 bs: 1 br: 0
+k: 261 bs: 0 br: 1
+k: 267 bs: 1 br: 0
+k: 297 bs: 0 br: 1
+k: 324 bs: 0 br: 1
+k: 370 bs: 1 br: 0
+k: 399 bs: 1 br: 0
+k: 459 bs: 1 br: 0
+k: 496 bs: 0 br: 1
+k: 500 bs: 0 br: 1
+k: 525 bs: 1 br: 0
+k: 562 bs: 1 br: 0
+k: 578 bs: 1 br: 0
+k: 603 bs: 1 br: 0
+k: 659 bs: 0 br: 1
+k: 694 bs: 0 br: 1
+k: 722 bs: 1 br: 0
+k: 738 bs: 1 br: 0
+k: 759 bs: 1 br: 0
+k: 768 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is!a very`long string to test if there are mOre %rrors if the string is long istead of short
+k: 63 bs: 0 br: 1
+k: 113 bs: 0 br: 1
+k: 394 bs: 1 br: 0
+k: 425 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very hong string to test if there are mnbe errors if the sdring ic lkng istead of shïrt
+k: 125 bs: 1 br: 0
+k: 399 bs: 1 br: 0
+k: 403 bs: 1 br: 0
+k: 547 bs: 1 br: 0
+k: 603 bs: 1 br: 0
+k: 629 bs: 1 br: 0
+k: 752 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test If dhere are more errors if the string is long istead of short
+k: 282 bs: 1 br: 0
+k: 307 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	Thiq is a ver{ long strilg to test if there are moze errors if tl% strIng is lng iste`d of short
+k: 30 bs: 1 br: 0
+k: 110 bs: 0 br: 1
+k: 198 bs: 1 br: 0
+k: 404 bs: 0 br: 1
+k: 517 bs: 0 br: 1
+k: 521 bs: 1 br: 0
+k: 562 bs: 1 br: 0
+k: 627 bs: 0 br: 1
+k: 695 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to te3t if there are more errors if the string is long istead of short
+k: 257 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	Thió is$a veby Lono`sdring to`test if there are Moòe errors if the ctring is lonç isteAd of short
+k: 24 bs: 0 br: 1
+k: 61 bs: 0 br: 1
+k: 99 bs: 1 br: 0
+k: 122 bs: 1 br: 0
+k: 148 bs: 0 br: 1
+k: 153 bs: 0 br: 1
+k: 171 bs: 1 br: 0
+k: 233 bs: 0 br: 1
+k: 386 bs: 1 br: 0
+k: 400 bs: 0 br: 1
+k: 539 bs: 1 br: 0
+k: 640 bs: 0 br: 1
+k: 690 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long is|ead of short
+k: 676 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This ic á very long string to test if there`arm moòe evrors if the sdring is long istEcd of short
+k: 51 bs: 1 br: 0
+k: 64 bs: 0 br: 1
+k: 345 bs: 0 br: 1
+k: 372 bs: 0 br: 1
+k: 400 bs: 0 br: 1
+k: 437 bs: 0 br: 1
+k: 547 bs: 1 br: 0
+k: 682 bs: 1 br: 0
+k: 694 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is(a very long(string to test if there are more errors if the string is long istead of short
+k: 60 bs: 0 br: 1
+k: 156 bs: 0 br: 1
+k: 298 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is A vEr9`long string to test if there are more errors if the string is long istead of short
+k: 56 bs: 0 br: 1
+k: 66 bs: 1 br: 0
+k: 90 bs: 1 br: 0
+k: 105 bs: 1 br: 0
+k: 113 bs: 0 br: 1
+k: 298 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This iw a verq |ong strijg to test if there ara more errors if the string is long istead of short
+k: 53 bs: 0 br: 1
+k: 108 bs: 1 br: 0
+k: 123 bs: 0 br: 1
+k: 197 bs: 1 br: 0
+k: 373 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if tjere are more errmrs if the string is long is|ead of short
+k: 318 bs: 0 br: 1
+k: 454 bs: 1 br: 0
+k: 676 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are moreàerrors if the string is long istead of short
+k: 416 bs: 0 br: 1
+k: 417 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+k: 56 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This Is a veby lOng string to`tewt if there abe more errobs if the string is long istead of rhort
+k: 42 bs: 1 br: 0
+k: 99 bs: 1 br: 0
+k: 114 bs: 1 br: 0
+k: 130 bs: 1 br: 0
+k: 233 bs: 0 br: 1
+k: 261 bs: 0 br: 1
+k: 363 bs: 1 br: 0
+k: 459 bs: 1 br: 0
+k: 743 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there ave more errors if the string is long istead of short
+k: 365 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is ! very long string to test if there are more errors if the string is long istead of slort
+k: 65 bs: 1 br: 0
+k: 749 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a vesù lolg strhnf tï deSt if there are more ervors if the qtryng is long istead of short
+k: 103 bs: 0 br: 1
+k: 104 bs: 0 br: 1
+k: 142 bs: 1 br: 0
+k: 191 bs: 1 br: 0
+k: 207 bs: 1 br: 0
+k: 224 bs: 0 br: 1
+k: 243 bs: 1 br: 0
+k: 258 bs: 1 br: 0
+k: 445 bs: 0 br: 1
+k: 542 bs: 1 br: 0
+k: 563 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	Thir ic A ver} long`strInf t |ást!if thure áre mobe errors if the ctring ic lonf`iwô'ad of short
+k: 31 bs: 1 br: 0
+k: 51 bs: 1 br: 0
+k: 66 bs: 1 br: 0
+k: 109 bs: 0 br: 1
+k: 153 bs: 0 br: 1
+k: 186 bs: 1 br: 0
+k: 207 bs: 1 br: 0
+k: 227 bs: 0 br: 1
+k: 244 bs: 0 br: 1
+k: 248 bs: 0 br: 1
+k: 253 bs: 1 br: 0
+k: 279 bs: 0 br: 1
+k: 323 bs: 0 br: 1
+k: 352 bs: 0 br: 1
+k: 403 bs: 1 br: 0
+k: 539 bs: 1 br: 0
+k: 603 bs: 1 br: 0
+k: 647 bs: 1 br: 0
+k: 649 bs: 0 br: 1
+k: 669 bs: 0 br: 1
+k: 672 bs: 0 br: 1
+k: 681 bs: 1 br: 0
+k: 686 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	Tèis is!a vmr9 lo~ghqtring to teqp if thu2i are`mïse urrïrs if ôhå svring is lOnç i3tead of short
+k: 8 bs: 0 br: 1
+k: 63 bs: 0 br: 1
+k: 92 bs: 0 br: 1
+k: 105 bs: 1 br: 0
+k: 139 bs: 0 br: 1
+k: 153 bs: 0 br: 1
+k: 156 bs: 0 br: 1
+k: 166 bs: 1 br: 0
+k: 262 bs: 1 br: 0
+k: 269 bs: 1 br: 0
+k: 323 bs: 0 br: 1
+k: 329 bs: 1 br: 0
+k: 340 bs: 0 br: 1
+k: 341 bs: 1 br: 0
+k: 377 bs: 0 br: 1
+k: 392 bs: 0 br: 1
+k: 407 bs: 0 br: 1
+k: 427 bs: 0 br: 1
+k: 448 bs: 0 br: 1
+k: 504 bs: 0 br: 1
+k: 520 bs: 0 br: 1
+k: 550 bs: 0 br: 1
+k: 586 bs: 1 br: 0
+k: 626 bs: 1 br: 0
+k: 640 bs: 0 br: 1
+k: 665 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is0a very long string to test if there are more errors if the string is long istead of short
+k: 59 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long"ystead of short
+k: 654 bs: 0 br: 1
+k: 659 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long String ôo test if there are more errors if the string is long istead of short
+k: 162 bs: 1 br: 0
+k: 216 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This és a very long string to test if there are mord errors if the strino is lolg istead of short
+k: 40 bs: 0 br: 1
+k: 415 bs: 1 br: 0
+k: 580 bs: 0 br: 1
+k: 638 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to`test if there are more errors if the string is long istead of short
+k: 233 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long stri~g to te3t0if there are more!errors if the strifg is long istead of short
+k: 195 bs: 0 br: 1
+k: 257 bs: 1 br: 0
+k: 275 bs: 0 br: 1
+k: 423 bs: 0 br: 1
+k: 572 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+k: 298 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	This is a very long string to test if there are more errors if the string is long istead of short
+----------------------------------------------------------------------------
+Sent:		This is a very long string to test if there are more errors if the string is long istead of short
+Received:	Thhs is a verq$long string |o test If vhere are mnfe errnrs if têe rtring is long istead of shotu
+k: 23 bs: 1 br: 0
+k: 108 bs: 1 br: 0
+k: 117 bs: 0 br: 1
+k: 220 bs: 0 br: 1
+k: 282 bs: 1 br: 0
+k: 310 bs: 0 br: 1
+k: 399 bs: 1 br: 0
+k: 403 bs: 1 br: 0
+k: 405 bs: 0 br: 1
+k: 455 bs: 1 br: 0
+k: 512 bs: 0 br: 1
+k: 518 bs: 0 br: 1
+k: 543 bs: 1 br: 0
+k: 765 bs: 0 br: 1
+k: 766 bs: 1 br: 0
+k: 775 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Antal försök: 100
+Fel karaktär: 541
+Fel sträng: 33

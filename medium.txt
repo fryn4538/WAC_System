@@ -1,0 +1,560 @@
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	Thès medium@striNg
+k: 16 bs: 0 br: 1
+k: 23 bs: 1 br: 0
+k: 89 bs: 0 br: 1
+k: 90 bs: 1 br: 0
+k: 130 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	T`)s med)um strhng
+k: 12 bs: 1 br: 0
+k: 17 bs: 1 br: 0
+k: 65 bs: 1 br: 0
+k: 127 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This modItl ÷ôring
+k: 52 bs: 0 br: 1
+k: 54 bs: 0 br: 1
+k: 66 bs: 1 br: 0
+k: 79 bs: 1 br: 0
+k: 87 bs: 1 br: 0
+k: 96 bs: 0 br: 1
+k: 101 bs: 0 br: 1
+k: 104 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	Uhar medYum r|rKnç
+k: 7 bs: 0 br: 1
+k: 20 bs: 1 br: 0
+k: 31 bs: 1 br: 0
+k: 66 bs: 1 br: 0
+k: 67 bs: 0 br: 1
+k: 103 bs: 1 br: 0
+k: 108 bs: 0 br: 1
+k: 122 bs: 1 br: 0
+k: 126 bs: 0 br: 1
+k: 136 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This mefium string
+k: 62 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium str)ng
+k: 121 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	®^Z3~JjnZ*K~2.6ZF`
+k: 0 bs: 0 br: 1
+k: 1 bs: 1 br: 0
+k: 2 bs: 0 br: 1
+k: 3 bs: 1 br: 0
+k: 4 bs: 0 br: 1
+k: 6 bs: 0 br: 1
+k: 10 bs: 1 br: 0
+k: 11 bs: 0 br: 1
+k: 13 bs: 0 br: 1
+k: 14 bs: 0 br: 1
+k: 18 bs: 1 br: 0
+k: 19 bs: 0 br: 1
+k: 22 bs: 0 br: 1
+k: 23 bs: 1 br: 0
+k: 25 bs: 1 br: 0
+k: 33 bs: 0 br: 1
+k: 35 bs: 0 br: 1
+k: 36 bs: 0 br: 1
+k: 37 bs: 0 br: 1
+k: 38 bs: 0 br: 1
+k: 42 bs: 1 br: 0
+k: 45 bs: 1 br: 0
+k: 46 bs: 0 br: 1
+k: 47 bs: 1 br: 0
+k: 52 bs: 0 br: 1
+k: 53 bs: 1 br: 0
+k: 54 bs: 0 br: 1
+k: 55 bs: 1 br: 0
+k: 60 bs: 0 br: 1
+k: 62 bs: 0 br: 1
+k: 66 bs: 1 br: 0
+k: 67 bs: 0 br: 1
+k: 70 bs: 0 br: 1
+k: 71 bs: 1 br: 0
+k: 73 bs: 1 br: 0
+k: 75 bs: 1 br: 0
+k: 76 bs: 0 br: 1
+k: 77 bs: 1 br: 0
+k: 78 bs: 0 br: 1
+k: 79 bs: 1 br: 0
+k: 82 bs: 1 br: 0
+k: 85 bs: 1 br: 0
+k: 86 bs: 0 br: 1
+k: 89 bs: 0 br: 1
+k: 91 bs: 0 br: 1
+k: 92 bs: 0 br: 1
+k: 93 bs: 0 br: 1
+k: 94 bs: 0 br: 1
+k: 97 bs: 1 br: 0
+k: 103 bs: 1 br: 0
+k: 105 bs: 1 br: 0
+k: 107 bs: 1 br: 0
+k: 108 bs: 0 br: 1
+k: 110 bs: 0 br: 1
+k: 113 bs: 1 br: 0
+k: 117 bs: 0 br: 1
+k: 122 bs: 1 br: 0
+k: 123 bs: 0 br: 1
+k: 126 bs: 0 br: 1
+k: 127 bs: 1 br: 0
+k: 130 bs: 1 br: 0
+k: 132 bs: 1 br: 0
+k: 141 bs: 1 br: 0
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	Vhis }edium striNç
+k: 6 bs: 0 br: 1
+k: 43 bs: 0 br: 1
+k: 130 bs: 1 br: 0
+k: 136 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium strino
+k: 140 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	Txis mediu} strifg
+k: 11 bs: 0 br: 1
+k: 83 bs: 0 br: 1
+k: 132 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium rtring
+k: 103 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	®^Z3~JjnZ*K~2.6ZFd
+k: 0 bs: 0 br: 1
+k: 1 bs: 1 br: 0
+k: 2 bs: 0 br: 1
+k: 3 bs: 1 br: 0
+k: 4 bs: 0 br: 1
+k: 6 bs: 0 br: 1
+k: 10 bs: 1 br: 0
+k: 11 bs: 0 br: 1
+k: 13 bs: 0 br: 1
+k: 14 bs: 0 br: 1
+k: 18 bs: 1 br: 0
+k: 19 bs: 0 br: 1
+k: 22 bs: 0 br: 1
+k: 23 bs: 1 br: 0
+k: 25 bs: 1 br: 0
+k: 33 bs: 0 br: 1
+k: 35 bs: 0 br: 1
+k: 36 bs: 0 br: 1
+k: 37 bs: 0 br: 1
+k: 38 bs: 0 br: 1
+k: 42 bs: 1 br: 0
+k: 45 bs: 1 br: 0
+k: 46 bs: 0 br: 1
+k: 47 bs: 1 br: 0
+k: 52 bs: 0 br: 1
+k: 53 bs: 1 br: 0
+k: 54 bs: 0 br: 1
+k: 55 bs: 1 br: 0
+k: 60 bs: 0 br: 1
+k: 62 bs: 0 br: 1
+k: 66 bs: 1 br: 0
+k: 67 bs: 0 br: 1
+k: 70 bs: 0 br: 1
+k: 71 bs: 1 br: 0
+k: 73 bs: 1 br: 0
+k: 75 bs: 1 br: 0
+k: 76 bs: 0 br: 1
+k: 77 bs: 1 br: 0
+k: 78 bs: 0 br: 1
+k: 79 bs: 1 br: 0
+k: 82 bs: 1 br: 0
+k: 85 bs: 1 br: 0
+k: 86 bs: 0 br: 1
+k: 89 bs: 0 br: 1
+k: 91 bs: 0 br: 1
+k: 92 bs: 0 br: 1
+k: 93 bs: 0 br: 1
+k: 94 bs: 0 br: 1
+k: 97 bs: 1 br: 0
+k: 103 bs: 1 br: 0
+k: 105 bs: 1 br: 0
+k: 107 bs: 1 br: 0
+k: 108 bs: 0 br: 1
+k: 110 bs: 0 br: 1
+k: 113 bs: 1 br: 0
+k: 117 bs: 0 br: 1
+k: 122 bs: 1 br: 0
+k: 123 bs: 0 br: 1
+k: 126 bs: 0 br: 1
+k: 127 bs: 1 br: 0
+k: 130 bs: 1 br: 0
+k: 132 bs: 1 br: 0
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This Iedium string
+k: 42 bs: 1 br: 0
+k: 45 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	®^Z3~JnnZ:Ë~2^6ZF`
+k: 0 bs: 0 br: 1
+k: 1 bs: 1 br: 0
+k: 2 bs: 0 br: 1
+k: 3 bs: 1 br: 0
+k: 4 bs: 0 br: 1
+k: 6 bs: 0 br: 1
+k: 10 bs: 1 br: 0
+k: 11 bs: 0 br: 1
+k: 13 bs: 0 br: 1
+k: 14 bs: 0 br: 1
+k: 18 bs: 1 br: 0
+k: 19 bs: 0 br: 1
+k: 22 bs: 0 br: 1
+k: 23 bs: 1 br: 0
+k: 25 bs: 1 br: 0
+k: 33 bs: 0 br: 1
+k: 35 bs: 0 br: 1
+k: 36 bs: 0 br: 1
+k: 37 bs: 0 br: 1
+k: 38 bs: 0 br: 1
+k: 42 bs: 1 br: 0
+k: 45 bs: 1 br: 0
+k: 46 bs: 0 br: 1
+k: 47 bs: 1 br: 0
+k: 52 bs: 0 br: 1
+k: 54 bs: 0 br: 1
+k: 55 bs: 1 br: 0
+k: 60 bs: 0 br: 1
+k: 62 bs: 0 br: 1
+k: 66 bs: 1 br: 0
+k: 67 bs: 0 br: 1
+k: 70 bs: 0 br: 1
+k: 71 bs: 1 br: 0
+k: 73 bs: 1 br: 0
+k: 76 bs: 0 br: 1
+k: 77 bs: 1 br: 0
+k: 78 bs: 0 br: 1
+k: 79 bs: 1 br: 0
+k: 80 bs: 0 br: 1
+k: 82 bs: 1 br: 0
+k: 85 bs: 1 br: 0
+k: 86 bs: 0 br: 1
+k: 89 bs: 0 br: 1
+k: 91 bs: 0 br: 1
+k: 92 bs: 0 br: 1
+k: 93 bs: 0 br: 1
+k: 94 bs: 0 br: 1
+k: 97 bs: 1 br: 0
+k: 103 bs: 1 br: 0
+k: 106 bs: 1 br: 0
+k: 108 bs: 0 br: 1
+k: 110 bs: 0 br: 1
+k: 113 bs: 1 br: 0
+k: 117 bs: 0 br: 1
+k: 122 bs: 1 br: 0
+k: 123 bs: 0 br: 1
+k: 126 bs: 0 br: 1
+k: 127 bs: 1 br: 0
+k: 130 bs: 1 br: 0
+k: 132 bs: 1 br: 0
+k: 141 bs: 1 br: 0
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium strùno
+k: 120 bs: 0 br: 1
+k: 123 bs: 0 br: 1
+k: 140 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	T`hs medéum string
+k: 12 bs: 1 br: 0
+k: 23 bs: 1 br: 0
+k: 64 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This$medium stréng
+k: 37 bs: 0 br: 1
+k: 120 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This$ímdium stòing
+k: 37 bs: 0 br: 1
+k: 40 bs: 0 br: 1
+k: 52 bs: 0 br: 1
+k: 112 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium stòing
+k: 112 bs: 0 br: 1
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	T(is }edium stxing
+k: 9 bs: 1 br: 0
+k: 43 bs: 0 br: 1
+k: 116 bs: 0 br: 1
+k: 118 bs: 1 br: 0
+Fail
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Sent:		This medium string
+Received:	This medium string
+----------------------------------------------------------------------------
+Antal försök: 100
+Fel karaktär: 243
+Fel sträng: 17

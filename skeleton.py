@@ -123,29 +123,41 @@ def main(s = ""):
     wrongStr = 0
     wrongLen = 0
     wrongChar = 0
+    wrongBit = 0
 
     if data != data_rx:
         wrongStr += 1
         l = 0
+        ls = 0
         if(len(bs) == len(br)):
             l = len(bs)
+            ls = len(data)
         elif(len(bs) < len(br)):
             wrongLen += 1
-            wrongChar += len(br) - len(bs)
+            wrongBit += len(br) - len(bs)
+            print(str(len(s)) + "<: "+ str(wrongBit))
             l = len(bs)
+            ls = len(data)
         else:
             wrongLen += 1
-            wrongChar += len(bs) - len(br)
+            wrongBit += len(bs) - len(br)
+            print(str(len(s)) + ">: "+ str(wrongBit))
             l = len(br)
+            ls = len(data_rx)
+
+        for k in range(0, ls):
+            if data[k] != data_rx[k]:
+                wrongChar += 1
 
         for k in range(0,l):
             if bs[k] != br[k]:
-                wrongChar += 1
+                wrongBit += 1
                 #print("k:" , k, "bs:",bs[k],"br:", br[k])
         #print("Fail")
 
+
     #print("----------------------------------------------------------------------------")
-    return [wrongStr, wrongChar, wrongLen]
+    return [wrongStr, wrongBit, wrongLen]
 
 if __name__ == "__main__":
     if (len(sys.argv) == 3 and str(sys.argv[1]) == '-t'):
@@ -158,18 +170,22 @@ if __name__ == "__main__":
 
         fiveStr = []
         fiveChar = []
+        fiveBit = []
         fiveLen = []
 
         tenStr = []
         tenChar = []
+        tenBit = []
         tenLen = []
 
         twentyStr = []
         twentyChar = []
+        twentyBit = []
         twentyLen = []
 
         fiftyStr = []
         fiftyChar = []
+        fiftyBit = []
         fiftyLen = []
 
         for i in range(0,K):
@@ -178,22 +194,22 @@ if __name__ == "__main__":
 
             res = main(five)
             fiveStr.append(res[0])
-            fiveChar.append(res[1])
+            fiveBit.append(res[1])
             fiveLen.append(res[2])
 
             res = main(ten)
             tenStr.append(res[0])
-            tenChar.append(res[1])
+            tenBit.append(res[1])
             tenLen.append(res[2])
 
             res = main(twenty)
             twentyStr.append(res[0])
-            twentyChar.append(res[1])
+            twentyBit.append(res[1])
             twentyLen.append(res[2])
 
             res = main(fifty)
             fiftyStr.append(res[0])
-            fiftyChar.append(res[1])
+            fiftyBit.append(res[1])
             fiftyLen.append(res[2])
 
         print("Number of samples: " + str(K))
@@ -209,13 +225,13 @@ if __name__ == "__main__":
         print("Result corrupted strings length 20: " + str((sum(twentyLen)/K)*100) + "%")
         print("Result corrupted strings length 50: " + str((sum(fiftyLen)/K)*100) + "%")
         print("----------------------------------------------------------------------------")
-        print("Result corrupted characters 5: " + str((sum(fiveChar)/(K*5))*100) + "%")
-        print("Result corrupted characters 10: " + str((sum(tenChar)/(K*10))*100) + "%")
-        print("Result corrupted characters 20: " + str((sum(twentyChar)/(K*20))*100) + "%")
-        print("Result corrupted characters 50: " + str((sum(fiftyChar)/(K*50))*100) + "%")
+        print("Result corrupted bits 5: " + str((sum(fiveBit)/(K*5*8))*100) + "%")
+        print("Result corrupted bits 10: " + str((sum(tenBit)/(K*10*8))*100) + "%")
+        print("Result corrupted bits 20: " + str((sum(twentyBit)/(K*20*8))*100) + "%")
+        print("Result corrupted bits 50: " + str((sum(fiftyBit)/(K*50*8))*100) + "%")
         print("----------------------------------------------------------------------------")
-        totalErr = sum(fiveChar) + sum(tenChar) + sum(twentyChar) + sum(fiftyChar)
-        totalChar = K*(5+10+20+50)
-        print("Bit rate error: " + str((totalErr/totalChar)*100)+ "%")
+        totalBitErr = sum(fiveBit) + sum(tenBit) + sum(twentyBit) + sum(fiftyBit)
+        totalBit = K*(5+10+20+50)*8
+        print("Bit rate error: " + str((totalBitErr/totalBit)*100)+ "%")
     else:
         main()

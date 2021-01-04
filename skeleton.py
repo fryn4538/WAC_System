@@ -118,46 +118,59 @@ def main(s = ""):
     if(s == ""):
         print("Sent:\t\t" + data)
         print("Received:\t" + data_rx)
-    br = list(map(int, br))
+    else:
+        br = list(map(int, br))
 
-    wrongStr = 0
-    wrongLen = 0
-    wrongChar = 0
-    wrongBit = 0
+        wrongStr = 0
+        wrongLen = 0
+        wrongChar = 0
+        wrongBit = 0
 
-    if data != data_rx:
-        wrongStr += 1
-        l = 0
-        ls = 0
-        if(len(bs) == len(br)):
-            l = len(bs)
+        if data != data_rx:
+            wrongStr += 1
+
+            #print("Sent:\t\t" + data + ";\t" + str(len(data)) + ":" + str(len(bs)))
+            #print("Received:\t" + data_rx + ";\t" + str(len(data_rx)) + ":" + str(len(br)))
+
             ls = len(data)
-        elif(len(bs) < len(br)):
-            wrongLen += 1
-            wrongBit += len(br) - len(bs)
-            print(str(len(s)) + "<: "+ str(wrongBit))
+            if(len(data) < len(data_rx)):
+                ls = len(data)
+                wrongLen += 1
+                wrongChar += len(data_rx) - len(data)
+            elif(len(data) > len(data_rx)):
+                ls = len(data_rx)
+                wrongLen += 1
+                wrongChar += len(data) - len(data_rx)
+
+            for k in range(0, ls):
+                if data[k] != data_rx[k]:
+                    wrongChar += 1
+
+
             l = len(bs)
-            ls = len(data)
-        else:
-            wrongLen += 1
-            wrongBit += len(bs) - len(br)
-            print(str(len(s)) + ">: "+ str(wrongBit))
-            l = len(br)
-            ls = len(data_rx)
+            if(len(bs) < len(br)):
+                #wrongLen += 1
+                wrongBit += len(br) - len(bs)
+                #print(str(len(s)) + "<: "+ str(wrongBit))
+                l = len(bs)
+                ls = len(data)
+            elif(len(bs) > len(br)):
+                #wrongLen += 1
+                wrongBit += len(bs) - len(br)
+                #print(str(len(s)) + ">: "+ str(wrongBit))
+                l = len(br)
+                ls = len(data_rx)
 
-        for k in range(0, ls):
-            if data[k] != data_rx[k]:
-                wrongChar += 1
 
-        for k in range(0,l):
-            if bs[k] != br[k]:
-                wrongBit += 1
-                #print("k:" , k, "bs:",bs[k],"br:", br[k])
-        #print("Fail")
+            for k in range(0,l):
+                if bs[k] != br[k]:
+                    wrongBit += 1
+                    #print("k:" , k, "bs:",bs[k],"br:", br[k])
+            #print("Fail")
 
 
     #print("----------------------------------------------------------------------------")
-    return [wrongStr, wrongBit, wrongLen]
+    return [wrongStr, wrongChar, wrongBit, wrongLen]
 
 if __name__ == "__main__":
     if (len(sys.argv) == 3 and str(sys.argv[1]) == '-t'):
@@ -194,44 +207,58 @@ if __name__ == "__main__":
 
             res = main(five)
             fiveStr.append(res[0])
-            fiveBit.append(res[1])
-            fiveLen.append(res[2])
+            fiveChar.append(res[1])
+            fiveBit.append(res[2])
+            fiveLen.append(res[3])
 
             res = main(ten)
             tenStr.append(res[0])
-            tenBit.append(res[1])
-            tenLen.append(res[2])
+            tenChar.append(res[1])
+            tenBit.append(res[2])
+            tenLen.append(res[3])
 
             res = main(twenty)
             twentyStr.append(res[0])
-            twentyBit.append(res[1])
-            twentyLen.append(res[2])
+            twentyChar.append(res[1])
+            twentyBit.append(res[2])
+            twentyLen.append(res[3])
 
             res = main(fifty)
             fiftyStr.append(res[0])
-            fiftyBit.append(res[1])
-            fiftyLen.append(res[2])
+            fiftyChar.append(res[1])
+            fiftyBit.append(res[2])
+            fiftyLen.append(res[3])
 
         print("Number of samples: " + str(K))
 
+        sFiveStr = sum(fiveStr)
+        sTenStr = sum(tenStr)
+        sTwentyStr = sum(twentyStr)
+        sFiftyStr = sum(fiftyStr)
+
         print("----------------------------------------------------------------------------")
-        print("Result corrupted strings 5: " + str((sum(fiveStr)/K)*100) + "%")
-        print("Result corrupted strings 10: " + str((sum(tenStr)/K)*100) + "%")
-        print("Result corrupted strings 20: " + str((sum(twentyStr)/K)*100) + "%")
-        print("Result corrupted strings 50: " + str((sum(fiftyStr)/K)*100) + "%")
+        print("Result corrupted strings 5: " + str((sFiveStr/K)*100) + "%")
+        print("Result corrupted strings 10: " + str((sTenStr/K)*100) + "%")
+        print("Result corrupted strings 20: " + str((sTwentyStr/K)*100) + "%")
+        print("Result corrupted strings 50: " + str((sFiftyStr/K)*100) + "%")
         print("----------------------------------------------------------------------------")
         print("Result corrupted strings length 5: " + str((sum(fiveLen)/K)*100) + "%")
         print("Result corrupted strings length 10: " + str((sum(tenLen)/K)*100) + "%")
         print("Result corrupted strings length 20: " + str((sum(twentyLen)/K)*100) + "%")
         print("Result corrupted strings length 50: " + str((sum(fiftyLen)/K)*100) + "%")
         print("----------------------------------------------------------------------------")
-        print("Result corrupted bits 5: " + str((sum(fiveBit)/(K*5*8))*100) + "%")
-        print("Result corrupted bits 10: " + str((sum(tenBit)/(K*10*8))*100) + "%")
-        print("Result corrupted bits 20: " + str((sum(twentyBit)/(K*20*8))*100) + "%")
-        print("Result corrupted bits 50: " + str((sum(fiftyBit)/(K*50*8))*100) + "%")
+        print("Result corrupted chars 5: " + str((sum(fiveChar)/(K*5))*100) + "%")
+        print("Result corrupted chars 10: " + str((sum(tenChar)/(K*10))*100) + "%")
+        print("Result corrupted chars 20: " + str((sum(twentyChar)/(K*20))*100) + "%")
+        print("Result corrupted chars 50: " + str((sum(fiftyChar)/(K*50))*100) + "%")
         print("----------------------------------------------------------------------------")
+
         totalBitErr = sum(fiveBit) + sum(tenBit) + sum(twentyBit) + sum(fiftyBit)
         totalBit = K*(5+10+20+50)*8
         print("Bit rate error: " + str((totalBitErr/totalBit)*100)+ "%")
+
+        totalStrErr = sFiveStr + sTenStr + sTwentyStr + sFiftyStr
+        totalStr = K*4
+        print("String success rate: " + str(((1-(totalStrErr/totalStr))*100)) + "%")
     else:
         main()

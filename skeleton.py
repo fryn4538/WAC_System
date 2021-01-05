@@ -20,35 +20,39 @@ from scipy import signal
 import matplotlib.pyplot as plt
 import wcslib as wcs
 
+
 """
-Main
+Lowpass
 """
 def lowpass():
     fn = 5400
     wp = 1875/fn
     ws = 1950/fn
     gpass = 3
-    gstop = 40
+    gstop = 60
 
     b, a = signal.iirdesign(wp, ws, gpass, gstop)
     return [b,a]
 
-
+"""
+Bandpass
+"""
 def bandpass():
     fn = 5400
     wp = [1725/fn, 1875/fn]
     ws = [1650/fn, 1950/fn]
     gpass = 3
-    gstop = 40
+    gstop = 60
 
     b, a = signal.iirdesign(wp, ws, gpass, gstop)
     return [b,a]
 
 
+"""
+Main
+"""
 def main(s = ""):
-    # Parameters
-    Kb = 432     # Symbol width in samples
-    fs = 10800   # Sampling frequency in Hz
+    # Simplifications
     pi = np.pi
     cos = np.cos
     sin = np.sin
@@ -56,6 +60,11 @@ def main(s = ""):
 
     lp = lowpass()
     bp = bandpass()
+
+    # Parameters
+    Kb = 432     # Symbol width in samples
+    fs = 10800   # Sampling frequency in Hz
+
     # Detect input or set defaults
     string_data = True
     if (s != ""):
@@ -85,7 +94,7 @@ def main(s = ""):
     # TODO: Put your transmitter code here (feel free to modify any other parts
     # too, of course)
     Oc = 1800 * 2 * pi
-    Ac = 2
+    Ac = 1.9
     Ts = 1/10800
     xm =  np.zeros(len(xb))
     xc =  np.zeros(len(xb))
@@ -170,7 +179,7 @@ def main(s = ""):
 
 
     #print("----------------------------------------------------------------------------")
-    return [wrongStr, wrongChar, wrongBit, wrongLen]
+        return [wrongStr, wrongChar, wrongBit, wrongLen]
 
 if __name__ == "__main__":
     if (len(sys.argv) == 3 and str(sys.argv[1]) == '-t'):

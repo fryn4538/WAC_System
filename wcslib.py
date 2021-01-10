@@ -38,11 +38,9 @@ def encode_baseband_signal(b, Kb, s=[-1, 1]):
     Nx = b.shape[0]
     xb = np.zeros(Nx*Kb)
     xb[np.arange(0, Nx*Kb, Kb)] = b
-
     # "Lowpass filtering"
     b = np.ones(Kb)
     xb = signal.lfilter(b, 1, xb)
-
     return xb
 
 

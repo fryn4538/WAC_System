@@ -26,7 +26,7 @@ Lowpass
 """
 def lowpass():
     fn = 5400
-    wp = 1875/fn
+    wp = 75/fn
     ws = 1950/fn
     gpass = 3
     gstop = 60
@@ -97,7 +97,6 @@ def main(s = ""):
     Ac = 1.9
     Ts = 1/10800
     xm =  np.zeros(len(xb))
-    xc =  np.zeros(len(xb))
 
     for k in range(0, len(xb)):
         xm[k] = xb[k]*Ac*np.sin(Oc*k*Ts)
@@ -105,6 +104,7 @@ def main(s = ""):
     xt = signal.lfilter(bp[0], bp[1], xm)
 
     yr = wcs.simulate_channel(xt, fs)
+
     ym = signal.lfilter(bp[0], bp[1], yr)
     yi = yq = np.zeros(len(ym))
 
@@ -112,10 +112,17 @@ def main(s = ""):
         yi[k] =  ym[k]*np.cos(Oc*k*Ts)
         yq[k] =  (-1)*ym[k]*np.sin(Oc*k*Ts)
 
-    ybq = signal.filtfilt(lp[0], lp[1], yq)
-    ybi = signal.filtfilt(lp[0], lp[1], yi)
+    #ybq = signal.filtfilt(lp[0], lp[1], yq)
+    #ybi = signal.filtfilt(lp[0], lp[1], yi)
 
-    yb = ybi + 1j*ybq
+    #yb = ybi + 1j*ybq
+
+    yb = yi + 1j*yq
+
+    ybf = signal.filtfilt(lp[0], lp[1], yb)
+
+    ybq = ybf.imag
+    ybi = ybf.real
 
     ybm = np.sqrt((ybi**2) + (ybq**2))
 
@@ -138,9 +145,6 @@ def main(s = ""):
         if data != data_rx:
             wrongStr += 1
 
-            #print("Sent:\t\t" + data + ";\t" + str(len(data)) + ":" + str(len(bs)))
-            #print("Received:\t" + data_rx + ";\t" + str(len(data_rx)) + ":" + str(len(br)))
-
             ls = len(data)
             if(len(data) < len(data_rx)):
                 ls = len(data)
@@ -158,15 +162,11 @@ def main(s = ""):
 
             l = len(bs)
             if(len(bs) < len(br)):
-                #wrongLen += 1
                 wrongBit += len(br) - len(bs)
-                #print(str(len(s)) + "<: "+ str(wrongBit))
                 l = len(bs)
                 ls = len(data)
             elif(len(bs) > len(br)):
-                #wrongLen += 1
                 wrongBit += len(bs) - len(br)
-                #print(str(len(s)) + ">: "+ str(wrongBit))
                 l = len(br)
                 ls = len(data_rx)
 
@@ -174,11 +174,8 @@ def main(s = ""):
             for k in range(0,l):
                 if bs[k] != br[k]:
                     wrongBit += 1
-                    #print("k:" , k, "bs:",bs[k],"br:", br[k])
-            #print("Fail")
 
 
-    #print("----------------------------------------------------------------------------")
         return [wrongStr, wrongChar, wrongBit, wrongLen]
 
 if __name__ == "__main__":
